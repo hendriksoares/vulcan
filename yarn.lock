@@ -456,10 +456,20 @@
     chalk "^2.4.2"
     js-tokens "^4.0.0"
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+"@babel/parser@^7.1.0", "@babel/parser@^7.1.6", "@babel/parser@^7.14.7", "@babel/parser@^7.18.4", "@babel/parser@^7.20.7", "@babel/parser@^7.21.3", "@babel/parser@^7.22.15", "@babel/parser@^7.22.16":
+  version "7.22.16"
+  resolved "https://registry.yarnpkg.com/@babel/parser/-/parser-7.22.16.tgz#180aead7f247305cce6551bea2720934e2fa2c95"
+  integrity sha512-+gPfKv8UWeKKeJTUxe59+OobVcrYHETCsORl61EmSkmgymguYk/X5bp7GuUIXaFsc6y++v8ZxPsLSSuujqDphA==
+=======
+>>>>>>> 061034b39b0ddb617d54ea6b271a2362f4a2a313
 "@babel/parser@^7.1.0", "@babel/parser@^7.1.6", "@babel/parser@^7.14.7", "@babel/parser@^7.18.4", "@babel/parser@^7.20.15", "@babel/parser@^7.20.7", "@babel/parser@^7.21.3", "@babel/parser@^7.22.15", "@babel/parser@^7.22.16", "@babel/parser@^7.23.0":
   version "7.23.0"
   resolved "https://registry.npmjs.org/@babel/parser/-/parser-7.23.0.tgz"
   integrity sha512-vvPKKdMemU85V9WE/l5wZEmImpCtLqbnTvqDS2U1fJ96KrxoW7KrXhNsNCblQlg8Ck4b85yxdTyelsMUgFUXiw==
+>>>>>>> d5199dc0d83f49ee5fca7d4ba8fb3fa0751e510a
 
 "@babel/plugin-bugfix-safari-id-destructuring-collision-in-function-expression@^7.22.15":
   version "7.22.15"
@@ -2694,16 +2704,21 @@
   resolved "https://registry.npmjs.org/@types/json5/-/json5-0.0.29.tgz"
   integrity sha512-dRLjCWHYg4oaA77cxO64oO+7JwCwnIzkZPdrrC71jQmQtlhM556pwKo5bUzqvZndkVbeFLIIi+9TC40JNF5hNQ==
 
+<<<<<<< HEAD
+=======
 "@types/linkify-it@*":
   version "3.0.3"
   resolved "https://registry.npmjs.org/@types/linkify-it/-/linkify-it-3.0.3.tgz"
   integrity sha512-pTjcqY9E4nOI55Wgpz7eiI8+LzdYnw3qxXCfHyBDdPbYvbyLgWLJGh8EdPvqawwMK1Uo1794AUkkR38Fr0g+2g==
 
+>>>>>>> d5199dc0d83f49ee5fca7d4ba8fb3fa0751e510a
 "@types/long@^4.0.0":
   version "4.0.2"
   resolved "https://registry.npmjs.org/@types/long/-/long-4.0.2.tgz"
   integrity sha512-MqTGEo5bj5t157U6fA/BiDynNkn0YknVdh48CMPkTSpFTVmvao5UQmm7uEF6xBEo7qIMAlY/JSleYaE6VOdpaA==
 
+<<<<<<< HEAD
+=======
 "@types/markdown-it@^12.2.3":
   version "12.2.3"
   resolved "https://registry.npmjs.org/@types/markdown-it/-/markdown-it-12.2.3.tgz"
@@ -2717,6 +2732,7 @@
   resolved "https://registry.npmjs.org/@types/mdurl/-/mdurl-1.0.2.tgz"
   integrity sha512-eC4U9MlIcu2q0KQmXszyn5Akca/0jrQmwDRgpAMJai7qBWq4amIQhZyNau4VYGtCeALvW1/NtjzJJ567aZxfKA==
 
+>>>>>>> d5199dc0d83f49ee5fca7d4ba8fb3fa0751e510a
 "@types/mime@*":
   version "3.0.1"
   resolved "https://registry.npmjs.org/@types/mime/-/mime-3.0.1.tgz"
@@ -4234,6 +4250,8 @@ cardinal@^2.1.1:
     ansicolors "~0.3.2"
     redeyed "~2.1.0"
 
+<<<<<<< HEAD
+=======
 catharsis@^0.9.0:
   version "0.9.0"
   resolved "https://registry.npmjs.org/catharsis/-/catharsis-0.9.0.tgz"
@@ -4241,6 +4259,7 @@ catharsis@^0.9.0:
   dependencies:
     lodash "^4.17.15"
 
+>>>>>>> d5199dc0d83f49ee5fca7d4ba8fb3fa0751e510a
 caw@^2.0.1:
   version "2.0.1"
   resolved "https://registry.npmjs.org/caw/-/caw-2.0.1.tgz"
@@ -5424,11 +5443,14 @@ entities@^4.2.0, entities@^4.4.0, entities@^4.5.0:
   resolved "https://registry.npmjs.org/entities/-/entities-4.5.0.tgz"
   integrity sha512-V0hjH4dGPh9Ao5p0MoRY6BVqtwCjhz6vI5LT8AJ55H+4g9/4vbHx1I54fS0XuclLhDHArPQCiMjDxjaL8fPxhw==
 
+<<<<<<< HEAD
+=======
 entities@~2.1.0:
   version "2.1.0"
   resolved "https://registry.npmjs.org/entities/-/entities-2.1.0.tgz"
   integrity sha512-hCx1oky9PFrJ611mf0ifBLBRW8lUUVRlFolb5gWRfIELabBlbp9xZvrqZLZAs+NxFnbfQoeGd8wDkygjg7U85w==
 
+>>>>>>> d5199dc0d83f49ee5fca7d4ba8fb3fa0751e510a
 env-ci@^9.0.0:
   version "9.1.1"
   resolved "https://registry.npmjs.org/env-ci/-/env-ci-9.1.1.tgz"
@@ -8379,6 +8401,8 @@ js-yaml@^4.0.0, js-yaml@^4.1.0:
   dependencies:
     argparse "^2.0.1"
 
+<<<<<<< HEAD
+=======
 js2xmlparser@^4.0.2:
   version "4.0.2"
   resolved "https://registry.npmjs.org/js2xmlparser/-/js2xmlparser-4.0.2.tgz"
@@ -8386,6 +8410,7 @@ js2xmlparser@^4.0.2:
   dependencies:
     xmlcreate "^2.0.4"
 
+>>>>>>> d5199dc0d83f49ee5fca7d4ba8fb3fa0751e510a
 jscodeshift@^0.11.0:
   version "0.11.0"
   resolved "https://registry.npmjs.org/jscodeshift/-/jscodeshift-0.11.0.tgz"
@@ -8416,6 +8441,8 @@ jsdoc-type-pratt-parser@~4.0.0:
   resolved "https://registry.npmjs.org/jsdoc-type-pratt-parser/-/jsdoc-type-pratt-parser-4.0.0.tgz"
   integrity sha512-YtOli5Cmzy3q4dP26GraSOeAhqecewG04hoO8DY56CH4KJ9Fvv5qKWUCCo3HZob7esJQHCv6/+bnTy72xZZaVQ==
 
+<<<<<<< HEAD
+=======
 jsdoc@^4.0.2:
   version "4.0.2"
   resolved "https://registry.npmjs.org/jsdoc/-/jsdoc-4.0.2.tgz"
@@ -8437,6 +8464,7 @@ jsdoc@^4.0.2:
     strip-json-comments "^3.1.0"
     underscore "~1.13.2"
 
+>>>>>>> d5199dc0d83f49ee5fca7d4ba8fb3fa0751e510a
 jsesc@^2.5.1:
   version "2.5.2"
   resolved "https://registry.npmjs.org/jsesc/-/jsesc-2.5.2.tgz"
@@ -8583,6 +8611,8 @@ klaw-sync@^6.0.0:
   dependencies:
     graceful-fs "^4.1.11"
 
+<<<<<<< HEAD
+=======
 klaw@^3.0.0:
   version "3.0.0"
   resolved "https://registry.npmjs.org/klaw/-/klaw-3.0.0.tgz"
@@ -8590,6 +8620,7 @@ klaw@^3.0.0:
   dependencies:
     graceful-fs "^4.1.9"
 
+>>>>>>> d5199dc0d83f49ee5fca7d4ba8fb3fa0751e510a
 kleur@^3.0.3:
   version "3.0.3"
   resolved "https://registry.npmjs.org/kleur/-/kleur-3.0.3.tgz"
@@ -8739,6 +8770,8 @@ lines-and-columns@^2.0.3:
   resolved "https://registry.npmjs.org/lines-and-columns/-/lines-and-columns-2.0.3.tgz"
   integrity sha512-cNOjgCnLB+FnvWWtyRTzmB3POJ+cXxTA81LoW7u8JdmhfXzriropYwpjShnz1QLLWsQwY7nIxoDmcPTwphDK9w==
 
+<<<<<<< HEAD
+=======
 linkify-it@^3.0.1:
   version "3.0.3"
   resolved "https://registry.npmjs.org/linkify-it/-/linkify-it-3.0.3.tgz"
@@ -8746,6 +8779,7 @@ linkify-it@^3.0.1:
   dependencies:
     uc.micro "^1.0.1"
 
+>>>>>>> d5199dc0d83f49ee5fca7d4ba8fb3fa0751e510a
 load-json-file@^4.0.0:
   version "4.0.0"
   resolved "https://registry.npmjs.org/load-json-file/-/load-json-file-4.0.0.tgz"
@@ -9030,6 +9064,8 @@ map-visit@^1.0.0:
   dependencies:
     object-visit "^1.0.0"
 
+<<<<<<< HEAD
+=======
 markdown-it-anchor@^8.4.1:
   version "8.6.7"
   resolved "https://registry.npmjs.org/markdown-it-anchor/-/markdown-it-anchor-8.6.7.tgz"
@@ -9046,6 +9082,7 @@ markdown-it@^12.3.2:
     mdurl "^1.0.1"
     uc.micro "^1.0.5"
 
+>>>>>>> d5199dc0d83f49ee5fca7d4ba8fb3fa0751e510a
 marked-terminal@^5.1.1:
   version "5.2.0"
   resolved "https://registry.npmjs.org/marked-terminal/-/marked-terminal-5.2.0.tgz"
@@ -9058,11 +9095,14 @@ marked-terminal@^5.1.1:
     node-emoji "^1.11.0"
     supports-hyperlinks "^2.3.0"
 
+<<<<<<< HEAD
+=======
 marked@^4.0.10:
   version "4.3.0"
   resolved "https://registry.npmjs.org/marked/-/marked-4.3.0.tgz"
   integrity sha512-PRsaiG84bK+AMvxziE/lCFss8juXjNaWzVbN5tXAm4XjeaS9NAHhop+PjQxz2A9h8Q4M/xGmzP8vqNwy6JeK0A==
 
+>>>>>>> d5199dc0d83f49ee5fca7d4ba8fb3fa0751e510a
 marked@^5.0.0:
   version "5.1.2"
   resolved "https://registry.npmjs.org/marked/-/marked-5.1.2.tgz"
@@ -9077,11 +9117,14 @@ md5.js@^1.3.4:
     inherits "^2.0.1"
     safe-buffer "^5.1.2"
 
+<<<<<<< HEAD
+=======
 mdurl@^1.0.1:
   version "1.0.1"
   resolved "https://registry.npmjs.org/mdurl/-/mdurl-1.0.1.tgz"
   integrity sha512-/sKlQJCBYVY9Ers9hqzKou4H6V5UWc/M59TH2dvkt+84itfnq7uFOMLpOiOS4ujvHP4etln18fmIxA5R5fll0g==
 
+>>>>>>> d5199dc0d83f49ee5fca7d4ba8fb3fa0751e510a
 media-typer@0.3.0:
   version "0.3.0"
   resolved "https://registry.npmjs.org/media-typer/-/media-typer-0.3.0.tgz"
@@ -11025,6 +11068,8 @@ require-from-string@^2.0.2:
   resolved "https://registry.npmjs.org/require-from-string/-/require-from-string-2.0.2.tgz"
   integrity sha512-Xf0nWe6RseziFMu+Ap9biiUbmplq6S9/p+7w7YXP/JBHhrUDDUhwa+vANyubuqfZWTveU//DYVGsDG7RKL/vEw==
 
+<<<<<<< HEAD
+=======
 requizzle@^0.2.3:
   version "0.2.4"
   resolved "https://registry.npmjs.org/requizzle/-/requizzle-0.2.4.tgz"
@@ -11032,6 +11077,7 @@ requizzle@^0.2.3:
   dependencies:
     lodash "^4.17.21"
 
+>>>>>>> d5199dc0d83f49ee5fca7d4ba8fb3fa0751e510a
 resolve-cwd@^3.0.0:
   version "3.0.0"
   resolved "https://registry.npmjs.org/resolve-cwd/-/resolve-cwd-3.0.0.tgz"
@@ -12457,11 +12503,14 @@ typescript@~4.5.5:
   resolved "https://registry.npmjs.org/typescript/-/typescript-4.5.5.tgz"
   integrity sha512-TCTIul70LyWe6IJWT8QSYeA54WQe8EjQFU4wY52Fasj5UKx88LNYKCgBEHcOMOrFF1rKGbD8v/xcNWVUq9SymA==
 
+<<<<<<< HEAD
+=======
 uc.micro@^1.0.1, uc.micro@^1.0.5:
   version "1.0.6"
   resolved "https://registry.npmjs.org/uc.micro/-/uc.micro-1.0.6.tgz"
   integrity sha512-8Y75pvTYkLJW2hWQHXxoqRgV7qb9B+9vFEtidML+7koHUFapnVJAZ6cKs+Qjz5Aw3aZWHMC6u0wJE3At+nSGwA==
 
+>>>>>>> d5199dc0d83f49ee5fca7d4ba8fb3fa0751e510a
 uglify-js@^3.1.4:
   version "3.17.4"
   resolved "https://registry.npmjs.org/uglify-js/-/uglify-js-3.17.4.tgz"
@@ -12490,11 +12539,14 @@ unbzip2-stream@^1.0.9:
     buffer "^5.2.1"
     through "^2.3.8"
 
+<<<<<<< HEAD
+=======
 underscore@~1.13.2:
   version "1.13.6"
   resolved "https://registry.npmjs.org/underscore/-/underscore-1.13.6.tgz"
   integrity sha512-+A5Sja4HP1M08MaXya7p5LvjuM7K6q/2EaC0+iovj/wOcMsTzMvDFbasi/oSapiwOlt252IqsKqPjCl7huKS0A==
 
+>>>>>>> d5199dc0d83f49ee5fca7d4ba8fb3fa0751e510a
 unicode-canonical-property-names-ecmascript@^2.0.0:
   version "2.0.0"
   resolved "https://registry.npmjs.org/unicode-canonical-property-names-ecmascript/-/unicode-canonical-property-names-ecmascript-2.0.0.tgz"
@@ -12980,11 +13032,14 @@ xmlbuilder@~11.0.0:
   resolved "https://registry.npmjs.org/xmlbuilder/-/xmlbuilder-11.0.1.tgz"
   integrity sha512-fDlsI/kFEx7gLvbecc0/ohLG50fugQp8ryHzMTuW9vSa1GJ0XYWKnhsUx7oie3G98+r56aTQIUB4kht42R3JvA==
 
+<<<<<<< HEAD
+=======
 xmlcreate@^2.0.4:
   version "2.0.4"
   resolved "https://registry.npmjs.org/xmlcreate/-/xmlcreate-2.0.4.tgz"
   integrity sha512-nquOebG4sngPmGPICTS5EnxqhKbCmz5Ox5hsszI2T6U5qdrJizBc+0ilYSEjTSzU0yZcmvppztXe/5Al5fUwdg==
 
+>>>>>>> d5199dc0d83f49ee5fca7d4ba8fb3fa0751e510a
 xss@^1.0.8:
   version "1.0.14"
   resolved "https://registry.npmjs.org/xss/-/xss-1.0.14.tgz"
