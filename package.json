@@ -17,7 +17,8 @@
     "format": "prettier --write .",
     "task:docs": "jsdoc --configure jsdoc.json --verbose",
     "test": "jest --clearCache && jest",
-    "test:watch": "jest --watch"
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --clearCache && jest --coverage"
   },
   "author": "aziontech",
   "contributors": [
