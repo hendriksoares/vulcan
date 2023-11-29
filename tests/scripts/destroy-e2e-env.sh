@@ -1,3 +1,3 @@
 #!/bin/bash
 
-docker-compose down && rm .initialized.keep
+docker compose down && rm .initialized.keep

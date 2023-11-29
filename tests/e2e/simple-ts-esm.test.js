@@ -1,4 +1,5 @@
 import supertest from 'supertest';
+import { describe, beforeAll, afterAll, test, expect } from 'vitest';
 import projectInitializer from '../utils/project-initializer.js';
 import projectStop from '../utils/project-stop.js';
 import { getContainerPort } from '../utils/docker-env-actions.js';

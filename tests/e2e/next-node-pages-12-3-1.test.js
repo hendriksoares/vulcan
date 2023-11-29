@@ -5,6 +5,7 @@ import { expect } from '@jest/globals';
 import projectInitializer from '../utils/project-initializer.js';
 import projectStop from '../utils/project-stop.js';
 import { getContainerPort } from '../utils/docker-env-actions.js';
+import { describe, beforeAll, afterAll, test, expect } from 'vitest';
 
 // timeout in minutes
 const TIMEOUT = 10 * 60 * 1000;

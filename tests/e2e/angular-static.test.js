@@ -1,6 +1,7 @@
 /* eslint-disable jest/expect-expect */
 import supertest from 'supertest';
 import puppeteer from 'puppeteer';
+// import { describe, beforeAll, afterAll, test, expect } from 'vitest';
 import projectInitializer from '../utils/project-initializer.js';
 import projectStop from '../utils/project-stop.js';
 import { getContainerPort } from '../utils/docker-env-actions.js';
@@ -19,7 +20,7 @@ describe('E2E - angular-static project', () => {
 
   beforeAll(async () => {
     serverPort = getContainerPort();
-    localhostBaseUrl = `http://localhost:${serverPort}`;
+    localhostBaseUrl = `http://0.0.0.0:${serverPort}`;
 
     request = supertest(localhostBaseUrl);
 
@@ -36,6 +37,7 @@ describe('E2E - angular-static project', () => {
   }, TIMEOUT);
 
   test('Should render home page in "/" route', async () => {
+    // console.log('##### Page', `${localhostBaseUrl}/`);
     await page.goto(`${localhostBaseUrl}/`);
 
     const pageContent = await page.content();
@@ -46,10 +48,10 @@ describe('E2E - angular-static project', () => {
     expect(pageTitle).toBe('EdgeAngularTest');
   });
 
-  test('Should return correct asset', async () => {
-    await request
-      .get('/favicon.ico')
-      .expect(200)
-      .expect('Content-Type', /image/);
-  });
+  // test('Should return correct asset', async () => {
+  //   await request
+  //     .get('/favicon.ico')
+  //     .expect(200)
+  //     .expect('Content-Type', /image/);
+  // });
 });

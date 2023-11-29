@@ -4,6 +4,7 @@ import {
   execCommandInContainer,
 } from './docker-env-actions.js';
 
+const { execSync } = require('child_process');
 /**
  * Run actions to build and run project in docker container
  * @param {string} examplePath - project path in container
@@ -29,20 +30,22 @@ async function projectInitializer(
   }
 
   feedback.info(`[${example}] Building the project ...`);
+  // console.log(`${vulcanCmd} build --preset ${preset} --mode ${mode}`);
+  // execSync('sleep 1'); // block process for 1 second.
   await execCommandInContainer(
     `${vulcanCmd} build --preset ${preset} --mode ${mode}`,
     examplePath,
   );
-
+  // execSync('sleep 1'); // block process for 1 second.
   feedback.info(`[${example}] Starting vulcan local server ...`);
   await execCommandInContainer(
     `${vulcanCmd} dev -p ${serverPort}`,
     examplePath,
     true,
   );
-
+  // execSync('sleep 1');
   await waitForVulcanServer(true);
-
+  // execSync('sleep 1');
   feedback.info(`[${example}] vulcan local server started!`);
 }
 

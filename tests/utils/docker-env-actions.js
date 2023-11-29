@@ -77,7 +77,7 @@ async function execCommandInContainer(
 ) {
   const dockerCmd = `docker exec -w ${path} ${container}`;
   const dockerBkgCmd = dockerCmd.replace('-w', '-d -w');
-
+  // console.log(`${inBackground ? dockerBkgCmd : dockerCmd} ${command}`);
   await exec(
     `${inBackground ? dockerBkgCmd : dockerCmd} ${command}`,
     logPrefix,
