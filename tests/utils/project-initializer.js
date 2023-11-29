@@ -4,7 +4,7 @@ import {
   execCommandInContainer,
 } from './docker-env-actions.js';
 
-const { execSync } = require('child_process');
+// const { execSync } = require('child_process');
 /**
  * Run actions to build and run project in docker container
  * @param {string} examplePath - project path in container

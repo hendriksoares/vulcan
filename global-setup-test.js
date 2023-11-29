@@ -11,8 +11,10 @@
 //   globalThis.dockerAvailablePorts = generateNumericArray(3000, 3020);
 // }
 
+// eslint-disable-next-line import/no-extraneous-dependencies
 import { afterAll, beforeAll } from 'vitest';
 
+// eslint-disable-next-line jsdoc/require-returns
 /**
  *
  * @param start

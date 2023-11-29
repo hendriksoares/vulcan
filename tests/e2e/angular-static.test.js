@@ -1,7 +1,7 @@
 /* eslint-disable jest/expect-expect */
 import supertest from 'supertest';
 import puppeteer from 'puppeteer';
-// import { describe, beforeAll, afterAll, test, expect } from 'vitest';
+import { describe, beforeAll, afterAll, test, expect } from 'vitest';
 import projectInitializer from '../utils/project-initializer.js';
 import projectStop from '../utils/project-stop.js';
 import { getContainerPort } from '../utils/docker-env-actions.js';
@@ -48,10 +48,10 @@ describe('E2E - angular-static project', () => {
     expect(pageTitle).toBe('EdgeAngularTest');
   });
 
-  // test('Should return correct asset', async () => {
-  //   await request
-  //     .get('/favicon.ico')
-  //     .expect(200)
-  //     .expect('Content-Type', /image/);
-  // });
+  test('Should return correct asset', async () => {
+    await request
+      .get('/favicon.ico')
+      .expect(200)
+      .expect('Content-Type', /image/);
+  });
 });
