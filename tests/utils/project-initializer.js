@@ -12,7 +12,6 @@ import {
  * @param {number} serverPort - port to use in vulcan server
  * @param {boolean} installPkgs - dependencies need to be installed?
  * @param {string} url - url test container
- * @param {boolean} isFirewall - is firewall project
  */
 async function projectInitializer(
   examplePath,
@@ -21,7 +20,6 @@ async function projectInitializer(
   serverPort,
   installPkgs = true,
   url = 'http://localhost',
-  isFirewall = false,
 ) {
   const example = examplePath.replace('/examples/', '');
   const vulcanCmd =
@@ -34,15 +32,13 @@ async function projectInitializer(
 
   feedback.info(`[${example}] Building the project ...`);
   await execCommandInContainer(
-    `${vulcanCmd} build --preset ${preset} --mode ${mode} ${
-      isFirewall ? '--firewall' : ''
-    }`,
+    `${vulcanCmd} build --preset ${preset} --mode ${mode}`,
     examplePath,
   );
 
   feedback.info(`[${example}] Starting vulcan local server ...`);
   await execCommandInContainer(
-    `${vulcanCmd} dev -p ${serverPort} ${isFirewall ? '--firewall' : ''}`,
+    `${vulcanCmd} dev -p ${serverPort}`,
     examplePath,
     true,
   );
