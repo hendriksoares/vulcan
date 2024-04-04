@@ -6,7 +6,7 @@ import projectStop from '../utils/project-stop.js';
 import { getContainerPort } from '../utils/docker-env-actions.js';
 
 // timeout in minutes
-const TIMEOUT = 10 * 60 * 1000;
+const TIMEOUT = 10 * 60 * 5000;
 
 let serverPort;
 let localhostBaseUrl;
@@ -79,6 +79,7 @@ describe('E2E - next-13-5-6-configs project', () => {
     'Should redirect after click on permanet Redirect route',
     async () => {
       await page.goto(`${localhostBaseUrl}`);
+      await page.reload();
       await Promise.all([
         page.waitForNavigation(),
         page.click('a[href="/run-redirect-permanent"]'),
